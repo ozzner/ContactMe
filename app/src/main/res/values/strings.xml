@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Nav drawer -->
+    <string name="default_text">Renzo Santillán Ch.</string>
+    <string name="default_count">+99</string>
 </resources>
