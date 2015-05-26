@@ -6,7 +6,8 @@
     <!--</style>-->
 
 
-
+    <!--Custom Theme-->
+    <style name="MyCustomMaterialTheme" parent="MyMaterialTheme.Base"></style>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/ColorPrimary</item>
@@ -14,6 +15,24 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleSize">@dimen/roboto_10sp</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent</item>
+    </style>
 
+
+
+    <!-- TOOLBAR -->
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/roboto_16sp</item>
+    </style>
+
+    <style name="ToolbarSubtitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">@dimen/roboto_12sp</item>
+    </style>
 
 </resources>

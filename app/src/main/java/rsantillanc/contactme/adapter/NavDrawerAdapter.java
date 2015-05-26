@@ -23,10 +23,6 @@ public class NavDrawerAdapter extends RecyclerView.Adapter<NavDrawerAdapter.Cust
     private ArrayList<NavItemModel> items;
 
 
-    public NavDrawerAdapter(LayoutInflater layInf, Context _context) {
-        this.layInf = layInf;
-        this._context = _context;
-    }
 
     public NavDrawerAdapter(Context _context, ArrayList<NavItemModel> items) {
         this._context = _context;

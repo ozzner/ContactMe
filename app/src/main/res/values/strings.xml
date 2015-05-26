@@ -4,7 +4,28 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
-    <!-- Nav drawer -->
+    <!-- NAVIGATION DRAWER -->
     <string name="default_text">Renzo Santillán Ch.</string>
-    <string name="default_count">+99</string>
+    <string name="default_count">99+</string>
+    <string name="nav_drawer_open">Abrir</string>
+    <string name="nav_drawer_close">Cerrar</string>
+
+    <string-array name="nav_titles">
+        <item>@string/nav_title_events</item>
+        <item>@string/nav_title_offers</item>
+        <item>@string/nav_title_history</item>
+        <item>@string/nav_title_commentary</item>
+        <item>@string/nav_title_assess</item>
+        <item>@string/nav_title_configuration</item>
+    </string-array>
+
+    <string name="nav_title_events">Eventos</string>
+    <string name="nav_title_offers">Ofertas</string>
+    <string name="nav_title_history">Historial</string>
+    <string name="nav_title_commentary">Enviar comentario</string>
+    <string name="nav_title_assess">Valorar</string>
+    <string name="nav_title_configuration">Configuración</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

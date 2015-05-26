@@ -14,6 +14,8 @@ public class NavItemModel {
         this.icon = icon;
     }
 
+    public NavItemModel() {
+    }
 
     public String getLabel() {
         return label;
