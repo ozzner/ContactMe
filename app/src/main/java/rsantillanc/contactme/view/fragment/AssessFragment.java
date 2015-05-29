@@ -1,6 +1,5 @@
 package rsantillanc.contactme.view.fragment;
 
-import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -38,7 +37,7 @@ public class AssessFragment extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment AssessFragment.
      */
-    // TODO: Rename and change types and number of parameters
+
     public static AssessFragment newInstance(String param1, String param2) {
         AssessFragment fragment = new AssessFragment();
         Bundle args = new Bundle();

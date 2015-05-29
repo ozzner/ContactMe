@@ -1,18 +1,38 @@
 package rsantillanc.contactme.view.activity;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import rsantillanc.contactme.R;
+import com.viewpagerindicator.CirclePageIndicator;
 
-public class LoginActivity extends ActionBarActivity {
+import rsantillanc.contactme.R;
+import rsantillanc.contactme.adapter.ViewPagerAdapter;
+
+public class LoginActivity extends ActionBarActivity implements ViewPager.OnPageChangeListener{
+
+    private ViewPager mViewPager;
+    private CirclePageIndicator mCirPagIndicator;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        initViews();
+    }
+
+    private void initViews() {
+        /*Init*/
+        mCirPagIndicator = (CirclePageIndicator)findViewById(R.id.cvp_login);
+        mViewPager = (ViewPager)findViewById(R.id.vp_login);
+
+        /*Setup*/
+        mViewPager.setAdapter( new ViewPagerAdapter(getSupportFragmentManager(),2));
+        mCirPagIndicator.setViewPager(mViewPager);
     }
 
     @Override
@@ -35,5 +55,20 @@ public class LoginActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+    }
+
+    @Override
+    public void onPageSelected(int position) {
+
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int state) {
+
     }
 }
