@@ -1,24 +1,22 @@
 package rsantillanc.contactme.view.fragment;
 
-import android.app.Activity;
-import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import rsantillanc.contactme.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link LoginThreeFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link LoginThreeFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class LoginThreeFragment extends Fragment {
+
+
+    private static final String ARG_PARAM1 = "param1";
+    private static final String ARG_PARAM2 = "param2";
+
+    private static LoginThreeFragment instance;
+
 
     public LoginThreeFragment() {
         // Required empty public constructor
@@ -37,5 +35,10 @@ public class LoginThreeFragment extends Fragment {
     }
 
 
+    public static LoginThreeFragment newInstance(String param1,String param2) {
+        if (instance == null)
+            instance =  new LoginThreeFragment();
 
+        return instance;
+    }
 }

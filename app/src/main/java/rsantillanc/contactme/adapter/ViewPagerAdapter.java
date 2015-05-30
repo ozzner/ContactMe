@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import rsantillanc.contactme.view.fragment.LoginOneFragment;
+import rsantillanc.contactme.view.fragment.LoginThreeFragment;
 import rsantillanc.contactme.view.fragment.LoginTwoFragment;
 
 /**
@@ -36,6 +37,9 @@ public class ViewPagerAdapter extends FragmentPagerAdapter{
                 break;
             case 1:
                 mFragment = LoginTwoFragment.newInstance(null,null);
+                break;
+            case 2:
+                mFragment = LoginThreeFragment.newInstance(null, null);
                 break;
             default:
                 break;

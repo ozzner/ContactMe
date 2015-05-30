@@ -7,9 +7,23 @@
     <dimen name="roboto_14sp">14sp</dimen>
     <dimen name="roboto_12sp">12sp</dimen>
     <dimen name="roboto_10sp">10sp</dimen>
+
+    <!--Navigation drawer-->
     <dimen name="nav_drawer_width">300dp</dimen>
+
     <dimen name="space_8dp">8dp</dimen>
     <dimen name="space_16dp">16dp</dimen>
     <dimen name="space_56dp">56dp</dimen>
     <dimen name="space_72dp">72dp</dimen>
+
+    <!--Padding-->
+    <dimen name="pad_2.5dp">2.5dp</dimen>
+    <dimen name="pad_5dp">5dp</dimen>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="pad_15dp">15dp</dimen>
+    <dimen name="pad_20dp">20dp</dimen>
+    <dimen name="pad_25dp">25dp</dimen>
+    <dimen name="pad_30dp">30dp</dimen>
+    <dimen name="pad_35dp">35dp</dimen>
+    <dimen name="pad_40dp">40dp</dimen>
 </resources>
