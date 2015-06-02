@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Proyectos\as-workspace\contactme\ViewPageIndicator\src\main\assets"/></dataSet><dataSet config="release"><source path="D:\Proyectos\as-workspace\contactme\ViewPageIndicator\src\release\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\repository\android_parse\contactme\ViewPageIndicator\src\main\assets"/></dataSet><dataSet config="release"><source path="D:\repository\android_parse\contactme\ViewPageIndicator\src\release\assets"/></dataSet></merger>

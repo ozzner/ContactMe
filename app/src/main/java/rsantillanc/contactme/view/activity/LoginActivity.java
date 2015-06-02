@@ -19,12 +19,11 @@ import rsantillanc.contactme.adapter.ViewPagerAdapter;
 public class LoginActivity extends ActionBarActivity implements ViewPager.OnPageChangeListener,View.OnClickListener{
 
     private static final int TOTAL_SCREENS = 3;
-    private final Context _context = getApplicationContext();
+    private  Context _context;
     private ViewPager mViewPager;
     private CirclePageIndicator mCirPagIndicator;
     private Button btLogin;
     private Button btRegister;
-
 
 
     @Override
@@ -36,6 +35,9 @@ public class LoginActivity extends ActionBarActivity implements ViewPager.OnPage
     }
 
     private void initViews() {
+        /*Context*/
+        _context = getApplicationContext();
+
         /*Init*/
         mCirPagIndicator = (CirclePageIndicator)findViewById(R.id.cvp_login);
         mViewPager = (ViewPager)findViewById(R.id.vp_login);
